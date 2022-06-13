@@ -1,4 +1,4 @@
-# # WEB STACK IMPLEMENTATION (LEMP STACK)
+# # WEB STACK IMPLEMENTATION (LAMP STACK)
 I Created an AWS account and an EC2 instance
 
 Generated a Private key and logged into the AWS server through Visual studio code Terminal
