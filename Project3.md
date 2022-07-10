@@ -161,7 +161,7 @@ npm run dev
 ![webpage display](https://user-images.githubusercontent.com/92901887/175480066-6538f3fe-b970-43c8-89e2-87e29968e2f5.PNG)
 
 # # Blockers
-- When i opened my index.js and othe files in vscode using Vim or Vi, some lines in the codes was commited out causing me to have syntax errors.
+- When i opened my index.js and othe files in vscode using Vim or Vi, some lines in the codes was commented out causing me to have syntax errors.
 
 - I had to use nano instead of vi and also switched to Gitbash and the issue was resolved.
 
