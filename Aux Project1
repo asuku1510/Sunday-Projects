@@ -52,14 +52,14 @@ done
 
 4. ./onboarding.sh
 
-4. Users
+5. Users
 
 - ![users in home created by the script](https://user-images.githubusercontent.com/92901887/178162441-787c75f3-a02b-49e8-bbb1-8d0d58d524b3.PNG)
 
 
 
 Login with one of the user for test
-5.  ssh -i key.pem Albert@3.144.158.61
+6.  ssh -i key.pem Albert@3.144.158.61
 
 ![login on with a user Albert](https://user-images.githubusercontent.com/92901887/178162510-7b869bb3-59a6-4c6a-87b5-023ae1ffd439.PNG)
 
