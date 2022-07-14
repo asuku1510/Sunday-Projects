@@ -16,14 +16,14 @@ vim names.csv and add 20 names
  
 sudo groupadd developers
 
-3. Creating script
+4. Creating script
 touch onboarding.sh
 
 Giving execute permission to the onboarding.sh  file
 Sudo Chmod +X onboarding.sh
 
 
-Vi onboarding.sh and write the script 
+Vi onboarding.sh and insert the script below
 
 #!/bin/bash
 #Darey.io AUX PROJECT 1
@@ -57,7 +57,6 @@ fi
 done
 
 Running the script
-
 5. ./onboarding.sh
 
 6. Display Users created
@@ -67,6 +66,7 @@ Running the script
 
 
 Login with one of the user for test
+
 7.  ssh -i key.pem Albert@3.144.158.61
 
 ![login on with a user Albert](https://user-images.githubusercontent.com/92901887/178162510-7b869bb3-59a6-4c6a-87b5-023ae1ffd439.PNG)
