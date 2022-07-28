@@ -47,6 +47,7 @@ NOTE: apps-lv will be used to store data for the Website while, logs-lv will be 
 
 - sudo vgdisplay -v #view complete setup - VG, PV, and LV
 - sudo lsblk 
+![3 partitions displayed](https://user-images.githubusercontent.com/92901887/181637589-6cc2e295-931a-4cbf-bf01-279ad3801683.PNG)
 
 11. Use mkfs.ext4 to format the logical volumes with ext4 filesystem
 - sudo mkfs -t ext4 /dev/webdata-vg/apps-lv
@@ -156,6 +157,8 @@ Step 5 — Configure DB to work with WordPress
 # Step 5 - Go into /var/www/html/wordpress  on the webserver
   - sudo vi wp-config.php, 
   - edit the database parameters
+ ![config setting](https://user-images.githubusercontent.com/92901887/181635395-9bec2d3a-e051-42b0-a802-111a121a32c7.PNG)
+ 
 
 # Step 6- Launch the webpage on the browser
   ![wordpress page1](https://user-images.githubusercontent.com/92901887/181628748-1707201f-89a1-4e3c-9a00-3df910e426af.PNG)
