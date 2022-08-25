@@ -1,4 +1,4 @@
-# Step1: Prepare a Web Server provision an EC2 server and mount the volumes
+# Step1: Prepare a Web Server provision an EC2 RHEL server and mount the volumes
 1. Use df -h command to see all mounts and free space on your server
 
 2. Use gdisk utility to create a single partition on each of the 3 disks
@@ -167,8 +167,8 @@ Test the setup and reload daemon
 - sudo setsebool -P httpd_execmem 1
 
 5. Install git on 172.31.39.6: 
- - Sudo yum install git
- and fork the tooling source code from Darey.io Github Account to your Github account
+- Sudo yum install git
+- and fork the tooling source code from Darey.io Github Account to your Github account
 - git clone https://github.com/darey-io/tooling
 - ls
 - cd tooling
@@ -192,8 +192,14 @@ Test the setup and reload daemon
 - sudo yum install mysql
 - mysql -u webaccess -pjude1510 -h 172.31.25.239 tooling < tooling-db.sql
 - mysql -h <databse-pr -u <db-username> -p <db-pasword> < tooling-db.sql
+                                                                        
+9. Open port 80 on the webserver
+                                                                        
+10. Open the website in your browser http://<Web-Server-Public-IP-Address-or-Public-DNS-Name>/index.php and make sure you can login into the websute with myuser user. 
+ ![project7 web](https://user-images.githubusercontent.com/92901887/186587840-c01a182b-1fd4-48bf-9276-01698a5728f5.PNG)
 
-9. Open the website in your browser http://<Web-Server-Public-IP-Address-or-Public-DNS-Name>/index.php and make sure you can login into the websute with myuser user.                                                                   
+ ![proj7 login](https://user-images.githubusercontent.com/92901887/186587626-fa42498e-c501-4cb7-82c3-4461b70ff18a.PNG)
+
                                                                         
 
 
