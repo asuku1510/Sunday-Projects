@@ -21,7 +21,7 @@ Ran  sudo mysql -p
 ![Mysql](https://user-images.githubusercontent.com/92901887/173271831-cb4502d5-558d-4381-bfe1-826c26836c00.PNG)
 
 ## STEP 3 — INSTALLING PHP
-Ran sudo apt install php libapache2-mod-php php-mysql
+Ran sudo apt install php libapache2-mod-php php-mysql db
 
 ## STEP 4 — CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
 Ran sudo mkdir /var/www/projectlamp to create directory for projectlamp
